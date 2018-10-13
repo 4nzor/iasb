@@ -25,7 +25,7 @@ SECRET_KEY = '7xd$&lqt_9e_wq&1433i1dxosu!*&d$+&#y81&bq4#f)8^w)j2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'iasb.pythonanywhere.com']
+ALLOWED_HOSTS = [u'iasb.pythonanywhere.com','*']
 
 
 # Application definition
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cms',
+    'ckeditor'
 ]
 
 MIDDLEWARE = [
